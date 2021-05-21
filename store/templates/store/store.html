@@ -1,0 +1,48 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+     <div class="row">
+		<div class="col-lg-3">
+			<div class="box-element" >
+				<div class="form-field">
+					 <h4 style="text-align:center">Time information</h4>
+				 </div>
+				 <div class="form-field">
+					 <h6>Start time:</h6>
+				 </div>
+				<div class="form-field">
+					 <h6>End time:</h6>
+				</div>
+				<div class="form-field">
+					 <h6>Delivery date:</h6>
+				</div>
+				<div class="form-field">
+					 <h6>Next_start time:</h6>
+				 </div>
+				<br>
+
+
+
+				<div class="form-field">
+					 <h5 align="center" style="color:red">Product preservation</h5>
+				</div>
+				<div class="form-field">
+					 <h6  style="color:red">All products need to be refrigerated and the warranty time is seven days.</h6>
+				</div>
+				<br>
+				<div class="form-field">
+					 <h6  style="color:red">If you need a refund, please contact customer service via official email or phone</h6>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-lg-8">
+            <img  id="thumbnail" src="{% static 'images/fruit.png' %}">
+		</div>
+	</div>
+{% endblock content %}
+
+
+
+
